@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "isolatedModules": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "ES2019",
+    "module": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "client/node_modules",
+    "client/dist",
+    "server"
+  ],
+  "include": [
+    "src"
+  ]
+}
